@@ -1,6 +1,4 @@
-# Awesome-Cloud-Advisory-Services
-
-# Awesome-Cloud-Advisory-Services 🏢 ☁️
+# Awesome Cloud Advisory Services 🏢 ☁️
 
 
 
@@ -52,9 +50,11 @@
 
 
 
-### 📌 Overview & SEO Summary
+### 📌 Overview & SEO Summary 🚀 🔍
 
-Welcome to the ultimate curated directory of **cloud advisory services**, **migration assessment frameworks**, and **open-source governance tools**. Whether you are looking for enterprise-grade consulting firms (such as *Accenture Cloud First*, *Deloitte Cloud*, and *IBM Consulting*), or self-hostable open-source alternatives (like *Cloud Custodian*, *Prowler*, and *Checkov*), this list covers category leaders, well-architected reviews, and privacy-respecting cloud governance.
+Welcome to the definitive, curated directory of **cloud advisory services**, **enterprise cloud consulting**, **cloud migration assessment frameworks**, and **open-source cloud governance tools**. Whether evaluating tier-1 global systems integrators (such as *Accenture Cloud First*, *Deloitte Cloud*, *IBM Consulting*, and *PwC Cloud*) or production-grade open-source tools (such as *Trivy*, *Prowler*, *Infracost*, *Open Policy Agent*, *Checkov*, and *Cloud Custodian*), this repository benchmarks enterprise starting prices, free tier allowances, CSPM capabilities, and FinOps cost intelligence.
+
+**Target Domains & Keywords:** cloud advisory services, cloud consulting firms, cloud migration assessment, AWS Well-Architected Framework, FinOps cost optimization, landing zone design, Cloud Security Posture Management (CSPM), Infrastructure as Code (IaC) governance, multi-cloud transformation, enterprise cloud modernization.
 
 
 
@@ -106,9 +106,10 @@ Welcome to the ultimate curated directory of **cloud advisory services**, **migr
 
 
 
-## 🏢 SaaS / Commercial Platforms
+## 🏢 SaaS / Commercial Platforms 🌐 💼
 
-
+> [!NOTE]
+> **Market Size & Industry Structure:** The global cloud consulting and advisory services market is estimated at **$38–$45 Billion (2025–2026)** and projected to exceed **$120+ Billion by 2032** (growing at a ~17–20% CAGR), driven by enterprise GenAI adoption, large-scale cloud migrations, and FinOps governance. The sector is **moderately to highly fragmented** rather than a "winner-take-all" monopolistic market: while the top Tier-1 Global Systems Integrators (Accenture, Deloitte, IBM, PwC) capture roughly 35–45% of enterprise mega-deals, a vast long-tail of specialized cloud-native consultancies, boutique FinOps advisory agencies, and platform-specific partners thrives due to complex multi-cloud ecosystems and localized compliance demands.
 
 The cloud advisory services market spans **global systems integrators** (Accenture, Deloitte, IBM) that provide **end-to-end migration, modernization, and managed services**, **cloud-native consultancies** (Slalom, Cloudreach) that focus on **practical implementation and enablement**, and **platform-specific advisory practices** (Salesforce, Cognizant, Wipro) that combine **deep platform expertise with industry specialization**. **Accenture Cloud First** represents a **$3 billion investment** in cloud capabilities . **Deloitte Cloud** integrates with **Deloitte’s industry practices and audit capabilities** .
 
@@ -144,131 +145,146 @@ The cloud advisory services market spans **global systems integrators** (Accentu
 
 
 
-## 🔓 Open-Source GitHub Projects
+## 🔓 Open-Source GitHub Projects 🌟 🛠️
 
 
 
-*Sorted by GitHub_Stars_Count (Descending)* 🌟
+*Curated self-hosted cloud security scanners, migration assessment tools, policy engines, and FinOps platforms — sorted strictly by GitHub Star Count (Descending)* 📈
 
 
 
-- **[Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)** [![Stars](https://img.shields.io/github/stars/cloud-custodian/cloud-custodian?style=social&color=white)](https://github.com/cloud-custodian/cloud-custodian/stargazers)  
-
-  **Rules engine for cloud security, cost optimization, and governance**, Apache-2.0 licensed. **CNCF Incubating project** supporting **AWS, Azure, GCP, Kubernetes, and OpenStack** . **YAML-based DSL** for real-time policy enforcement . **Schedule cloud "off hours" for specific apps or resources to reduce budget waste** . **The foundational open-source cloud governance engine** . 🛡️
+- **[Trivy](https://github.com/aquasecurity/trivy)** [![Stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers)  
+  **Comprehensive security scanner for containers, Kubernetes, IaC, and cloud environments**, Apache-2.0 licensed. **Scans AWS, Azure, and GCP accounts** for misconfigurations, sensitive data leaks, software vulnerabilities, and compliance drifts. **Fast, credential-free IaC scanning for Terraform and Dockerfiles** with CI/CD native integration. 🛡️
 
 
 
 - **[Prowler](https://github.com/prowler-cloud/prowler)** [![Stars](https://img.shields.io/github/stars/prowler-cloud/prowler?style=social&color=white)](https://github.com/prowler-cloud/prowler/stargazers)  
-
-  **Open-source cloud security assessment and compliance tool**, Apache-2.0 licensed. **572 AWS checks, 165 Azure checks, 100 GCP checks, and 83 Kubernetes checks** . **41+ compliance frameworks: CIS, NIST 800-53, NIST CSF, PCI-DSS, GDPR, HIPAA, SOC2, FedRAMP, AWS Well-Architected** . **CI/CD integration with SARIF output** . **The most comprehensive open-source CSPM platform** . 🔍
-
-
-
-- **[Steampipe](https://github.com/turbot/steampipe)** [![Stars](https://img.shields.io/github/stars/turbot/steampipe?style=social&color=white)](https://github.com/turbot/steampipe/stargazers)  
-
-  **Query live cloud APIs using standard SQL**, AGPL-3.0 licensed. **150+ plugins covering AWS, Azure, GCP, Kubernetes** . **No ETL pipeline or database setup required** . **Write queries to surface idle resources, underutilized instances, or spend patterns** . **The simplest way to explore cloud configuration data** . 🔗
-
-
-
-- **[Checkov](https://github.com/bridgecrewio/checkov)** [![Stars](https://img.shields.io/github/stars/bridgecrewio/checkov?style=social&color=white)](https://github.com/bridgecrewio/checkov/stargazers)  
-
-  **Static analysis for IaC**, Apache-2.0 licensed. **Scans Terraform, CloudFormation, Kubernetes manifests, Helm charts, Dockerfiles, ARM templates, Serverless Framework, OpenAPI specs, GitHub Actions workflows** . **No cloud credentials required** — catches misconfigurations before provisioning . **Rich context showing which cloud service is affected, why it matters, and how to resolve it** . 🔬
+  **Open-source cloud security assessment and compliance tool**, Apache-2.0 licensed. **572 AWS checks, 165 Azure checks, 100 GCP checks, and 83 Kubernetes checks** . **41+ compliance frameworks: CIS, NIST 800-53, NIST CSF, PCI-DSS, GDPR, HIPAA, SOC2, FedRAMP, AWS Well-Architected** . **CI/CD integration with SARIF output** . **The industry standard open-source CSPM platform** . 🔍
 
 
 
 - **[Infracost](https://github.com/infracost/infracost)** [![Stars](https://img.shields.io/github/stars/infracost/infracost?style=social&color=white)](https://github.com/infracost/infracost/stargazers)  
-
   **Cloud cost estimates for Terraform in pull requests**, Apache-2.0 licensed. **Shift-left FinOps** — shows cost impact of infrastructure changes before deployment . **Supports AWS, Azure, GCP, and 1,000+ resources** . **CLI, GitHub Actions, GitLab CI, and VS Code extension** . 💰
 
 
 
-- **[Komiser](https://github.com/tailwarden/komiser)** [![Stars](https://img.shields.io/github/stars/tailwarden/komiser?style=social&color=white)](https://github.com/tailwarden/komiser/stargazers)  
-
-  **Cloud resource visibility and cost optimization**, Apache-2.0 licensed. **Scans AWS, Azure, GCP, DigitalOcean, Civo, and Kubernetes** . **Surfaces misconfigurations, underutilized infrastructure, and hidden cost drivers from a single dashboard** . **Detects idle resources, orphaned volumes, and untagged assets** . 🔍
-
-
-
-- **[OptScale](https://github.com/hystax/optscale)** [![Stars](https://img.shields.io/github/stars/hystax/optscale?style=social&color=white)](https://github.com/hystax/optscale/stargazers)  
-
-  **Open-source FinOps platform**, Apache-2.0 licensed. **Supports AWS, Azure, GCP, Alibaba Cloud, and Kubernetes** . **Cost analytics, anomaly detection, rightsizing recommendations, and budget management** . **Also covers MLOps use cases, including cost optimization for AI workloads** . **Best starting point for end-to-end FinOps visibility** . 📊
+- **[Open Policy Agent (OPA)](https://github.com/open-policy-agent/opa)** [![Stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers)  
+  **Open-source, general-purpose policy engine**, Apache-2.0 licensed. **CNCF Graduated project** enabling unified, context-aware policy enforcement across microservices, Kubernetes, cloud landing zones, CI/CD pipelines, and API gateways via Rego query language. 📜
 
 
 
-- **[Prophet](https://github.com/Cloud-Discovery/prophet)** [![Stars](https://img.shields.io/github/stars/Cloud-Discovery/prophet?style=social&color=white)](https://github.com/Cloud-Discovery/prophet/stargazers)  
+- **[Checkov](https://github.com/bridgecrewio/checkov)** [![Stars](https://img.shields.io/github/stars/bridgecrewio/checkov?style=social&color=white)](https://github.com/bridgecrewio/checkov/stargazers)  
+  **Static analysis for IaC**, Apache-2.0 licensed. **Scans Terraform, CloudFormation, Kubernetes manifests, Helm charts, Dockerfiles, ARM templates, Serverless Framework, OpenAPI specs, GitHub Actions workflows** . **No cloud credentials required** — catches misconfigurations before provisioning . 🔬
 
-  **Automated resource collection, analysis, and management toolset for cloud migration and disaster recovery**, open-source. **Modern Web interface and powerful CLI** . **Supports comprehensive collection and analysis of physical machines and VMware environments** . **Automated collection via multiple protocols (nmap, Ansible, WMI, VMware API)** . **Visualized application topology canvas** . **Automatic data masking** to remove sensitive information . **Containerized deployment with Docker Compose** . **The most complete open-source migration assessment tool** . 🏗️
+
+
+- **[Steampipe](https://github.com/turbot/steampipe)** [![Stars](https://img.shields.io/github/stars/turbot/steampipe?style=social&color=white)](https://github.com/turbot/steampipe/stargazers)  
+  **Query live cloud APIs using standard SQL**, AGPL-3.0 licensed. **150+ plugins covering AWS, Azure, GCP, Kubernetes** . **No ETL pipeline or database setup required** . **Write queries to surface idle resources, underutilized instances, or spend patterns** . 🔗
 
 
 
 - **[ScoutSuite](https://github.com/nccgroup/ScoutSuite)** [![Stars](https://img.shields.io/github/stars/nccgroup/ScoutSuite?style=social&color=white)](https://github.com/nccgroup/ScoutSuite/stargazers)  
-
-  **Multi-cloud security auditing tool**, GPL-2.0 licensed. **Collects configuration data from cloud provider APIs and runs security checks against it** . **Identifies publicly accessible S3 buckets, overly permissive IAM policies, unencrypted databases, and security groups with open ports** . **Interactive HTML report keyed by service** . **NCC Scout SaaS version offers persistent monitoring** . 🎯
-
-
-
-- **[Cloud Migration MCP](https://github.com/chrishorne74/cloud-migration-mcp)** [![Stars](https://img.shields.io/github/stars/chrishorne74/cloud-migration-mcp?style=social&color=white)](https://github.com/chrishorne74/cloud-migration-mcp/stargazers)  
-
-  **MCP server for cloud migration assessment, strategy, and planning**, open-source. **7 Rs Strategy Engine** recommends Rehost, Replatform, Repurchase, Refactor, Retire, Retain, or Relocate based on workload attributes . **Migration Assessment** scores workloads **0–100 across 10 industry-standard criteria** . **30+ built-in guardrails** across Dependency, Security, Compliance, Data, Architecture, Operations, and Cost categories . **Wave Planning** groups workloads respecting dependencies . **Cost Estimation** with ROM (±50%) and ROI break-even . **Draw.io Diagrams** with native AWS/Azure/GCP shapes . **The most comprehensive open-source migration planning engine** . 🚀
+  **Multi-cloud security auditing tool**, GPL-2.0 licensed. **Collects configuration data from cloud provider APIs and runs security checks against it** . **Identifies publicly accessible S3 buckets, overly permissive IAM policies, unencrypted databases, and security groups with open ports** . **Interactive HTML report keyed by service** . 🎯
 
 
 
-- **[KICS (Keeping Infrastructure as Code Secure)](https://github.com/Checkmarx/kics)** [![Stars](https://img.shields.io/github/stars/Checkmarx/kics?style=social&color=white)](https://github.com/Checkmarx/kics/stargazers)  
-
-  **Open-source IaC scanning tool by Checkmarx**, Apache-2.0 licensed. **Supports Terraform, AWS CloudFormation, Ansible, Kubernetes** . **Detects misconfigurations, insecure coding patterns, and policy violations before deployment** . **Integrated into DevSecOps pipelines** . **Rich query library with 2,000+ security checks** . 🔬
-
-
-
-- **[ArchiQ (Amazon Q Architecture Reviewer)](https://github.com/aws-samples/sample-q-architecture-reviewer)** [![Stars](https://img.shields.io/github/stars/aws-samples/sample-q-architecture-reviewer?style=social&color=white)](https://github.com/aws-samples/sample-q-architecture-reviewer/stargazers)  
-
-  **Amazon Q-powered architecture analysis tool**, Apache-2.0 licensed. **Four analysis types**: security assessment, well-architected review, architecture diagram generation, and modernization path analysis . **Service Screener analysis** modes: review, SHIP (Security Health Improvement Program), and modernization. **English and Korean language support** . **Generates HTML reports with timestamps** . **The most accessible open-source architecture review tool** . 🤖
+- **[Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)** [![Stars](https://img.shields.io/github/stars/cloud-custodian/cloud-custodian?style=social&color=white)](https://github.com/cloud-custodian/cloud-custodian/stargazers)  
+  **Rules engine for cloud security, cost optimization, and governance**, Apache-2.0 licensed. **CNCF Incubating project** supporting **AWS, Azure, GCP, Kubernetes, and OpenStack** . **YAML-based DSL** for real-time policy enforcement . **Schedule cloud "off hours" for specific apps or resources to reduce budget waste** . 🛡️
 
 
 
-- **[Cloud Architect (AI Agent)](https://github.com/bmdietrich/agent-cloud-architect)** [![Stars](https://img.shields.io/github/stars/bmdietrich/agent-cloud-architect?style=social&color=white)](https://github.com/bmdietrich/agent-cloud-architect/stargazers)  
-
-  **AI Cloud Architect with CLI and MCP availability**, open-source. **Scans project, detects stack, and provides architecture recommendations, diagrams, decision records, and deployment comparisons for AWS, GCP, or Azure** . **Detects languages, frameworks, databases, infrastructure, containers, CI/CD, and services** . **MCP server for Claude Code, Cursor, Windsurf** . **CLI for standalone analysis** . 🏗️
-
-
-
-- **[well-architected-terraform (WAT)](https://github.com/ilijad1/well-architected-terraform)** [![Stars](https://img.shields.io/github/stars/ilijad1/well-architected-terraform?style=social&color=white)](https://github.com/ilijad1/well-architected-terraform/stargazers)  
-
-  **Terraform plan analyzer for Well-Architected Framework**, open-source. **Analyzes Terraform plan JSON against AWS Well-Architected pillars (Security, Reliability, Cost, Sustainability)** . **SARIF output for GitHub Advanced Security** . **CI/CD integration with GitHub Actions, GitLab CI, Jenkins** . **Suppression config with expiry dates for known deviations** . **The most focused open-source Well-Architected analyzer** . 📐
+- **[ThreatMapper](https://github.com/deepfence/ThreatMapper)** [![Stars](https://img.shields.io/github/stars/deepfence/ThreatMapper?style=social&color=white)](https://github.com/deepfence/ThreatMapper/stargazers)  
+  **Open-source cloud-native security observability and vulnerability management platform**, Apache-2.0 licensed. Automatically visualizes cloud infrastructure topologies, continuously scans containers, serverless apps, and virtual machines for vulnerabilities, exposed secrets, and compliance drift. 🗺️
 
 
 
-- **[AWS Well-Architected IaC Analyzer](https://github.com/aws-samples/well-architected-iac-analyzer)** [![Stars](https://img.shields.io/github/stars/aws-samples/well-architected-iac-analyzer?style=social&color=white)](https://github.com/aws-samples/well-architected-iac-analyzer/stargazers)  
-
-  **Evaluates infrastructure-as-code deployments for security vulnerabilities and reliability issues before runtime provisioning**, Apache-2.0 licensed. **AWS Labs sample for proactive architecture review** . 🔍
+- **[Terrascan](https://github.com/accurics/terrascan)** [![Stars](https://img.shields.io/github/stars/accurics/terrascan?style=social&color=white)](https://github.com/accurics/terrascan/stargazers)  
+  **Static code analyzer for Infrastructure as Code (IaC)**, Apache-2.0 licensed. Features **500+ built-in policies written in Rego** to detect security vulnerabilities and compliance deviations across Terraform, Kubernetes manifests, Helm, and ARM templates prior to deployment. 🔍
 
 
 
 - **[CISO Assistant](https://github.com/intuitem/ciso-assistant-community)** [![Stars](https://img.shields.io/github/stars/intuitem/ciso-assistant-community?style=social&color=white)](https://github.com/intuitem/ciso-assistant-community/stargazers)  
-
-  **One-stop-shop GRC platform**, AGPL-3.0 licensed. **Supports 130+ global frameworks with automatic control mapping**, including ISO 27001, NIST CSF, SOC 2, CIS, PCI DSS, NIS2, DORA, GDPR, HIPAA, and CMMC . **Controls are reusable objects** — structure work consistently across frameworks . **Docker-based self-hosting** . **The most comprehensive open-source GRC platform for cloud governance** . 🏛️
-
-
-
-- **[ckia (cloud know it all)](https://github.com/brittandeyoung/ckia)** [![Stars](https://img.shields.io/github/stars/brittandeyoung/ckia?style=social&color=white)](https://github.com/brittandeyoung/ckia/stargazers)  
-
-  **Open-source alternative to AWS Trusted Advisor**, open-source. **Makes recommendations for target cloud account** . **The most accessible open-source cloud advisory tool** . 💡
+  **One-stop-shop GRC platform**, AGPL-3.0 licensed. **Supports 130+ global frameworks with automatic control mapping**, including ISO 27001, NIST CSF, SOC 2, CIS, PCI DSS, NIS2, DORA, GDPR, HIPAA, and CMMC . **Docker-based self-hosting** . 🏛️
 
 
 
-- **[Google Cloud Pricing Calculator](https://github.com/Cyclenerd/google-cloud-pricing-cost-calculator)** [![Stars](https://img.shields.io/github/stars/Cyclenerd/google-cloud-pricing-cost-calculator?style=social&color=white)](https://github.com/Cyclenerd/google-cloud-pricing-cost-calculator/stargazers)  
+- **[Security Monkey](https://github.com/Netflix/security_monkey)** [![Stars](https://img.shields.io/github/stars/Netflix/security_monkey?style=social&color=white)](https://github.com/Netflix/security_monkey/stargazers)  
+  **Netflix's foundational cloud auditing engine**, Apache-2.0 licensed. Monitors AWS, GCP, and OpenStack configurations, detecting policy anomalies, unauthorized changes, and insecure network rules with historical change tracking. 🐵
 
-  **Calculate estimated monthly costs of Google Cloud Platform products and resources via YAML files and CLI program**, Apache-2.0 licensed. **Supports Linux, macOS, and Windows** . **The most accessible open-source GCP cost estimation tool** . 💸
+
+
+- **[Komiser](https://github.com/tailwarden/komiser)** [![Stars](https://img.shields.io/github/stars/tailwarden/komiser?style=social&color=white)](https://github.com/tailwarden/komiser/stargazers)  
+  **Cloud resource visibility and cost optimization**, Apache-2.0 licensed. **Scans AWS, Azure, GCP, DigitalOcean, Civo, and Kubernetes** . **Surfaces misconfigurations, underutilized infrastructure, and hidden cost drivers from a single dashboard** . 🔍
+
+
+
+- **[KICS (Keeping Infrastructure as Code Secure)](https://github.com/Checkmarx/kics)** [![Stars](https://img.shields.io/github/stars/Checkmarx/kics?style=social&color=white)](https://github.com/Checkmarx/kics/stargazers)  
+  **Open-source IaC scanning tool by Checkmarx**, Apache-2.0 licensed. **Supports Terraform, AWS CloudFormation, Ansible, Kubernetes** . **Detects misconfigurations, insecure coding patterns, and policy violations before deployment** with 2,000+ security queries. 🔬
+
+
+
+- **[OptScale](https://github.com/hystax/optscale)** [![Stars](https://img.shields.io/github/stars/hystax/optscale?style=social&color=white)](https://github.com/hystax/optscale/stargazers)  
+  **Open-source FinOps platform**, Apache-2.0 licensed. **Supports AWS, Azure, GCP, Alibaba Cloud, and Kubernetes** . **Cost analytics, anomaly detection, rightsizing recommendations, and budget management** . **Also covers MLOps / AI workload cost optimization** . 📊
+
+
+
+- **[Repokid](https://github.com/Netflix/repokid)** [![Stars](https://img.shields.io/github/stars/Netflix/repokid?style=social&color=white)](https://github.com/Netflix/repokid/stargazers)  
+  **Netflix's AWS IAM least-privilege advisor and automatic role right-sizing framework**, Apache-2.0 licensed. Analyzes Access Advisor data to continuously prune unused IAM permissions across enterprise cloud accounts without disrupting production traffic. 🔑
+
+
+
+- **[Regula](https://github.com/fugue/regula)** [![Stars](https://img.shields.io/github/stars/fugue/regula?style=social&color=white)](https://github.com/fugue/regula/stargazers)  
+  **Pre-deployment IaC policy and compliance checker**, Apache-2.0 licensed. Validates Terraform, CloudFormation, and Kubernetes manifests against CIS Benchmarks using Open Policy Agent (OPA) Rego rules. 📏
 
 
 
 - **[Finala](https://github.com/similarweb/finala)** [![Stars](https://img.shields.io/github/stars/similarweb/finala?style=social&color=white)](https://github.com/similarweb/finala/stargazers)  
-
   **Open-source resource cloud scanner**, Apache-2.0 licensed. **Analyzes, discloses, presents, and notifies about wasteful and unused resources** . **The most focused open-source resource optimization scanner** . 🔎
 
 
 
-- **[Trackit](https://github.com/trackit/trackit)** [![Stars](https://img.shields.io/github/stars/trackit/trackit?style=social&color=white)](https://github.com/trackit/trackit/stargazers)  
+- **[AWS Well-Architected IaC Analyzer](https://github.com/aws-samples/well-architected-iac-analyzer)** [![Stars](https://img.shields.io/github/stars/aws-samples/well-architected-iac-analyzer?style=social&color=white)](https://github.com/aws-samples/well-architected-iac-analyzer/stargazers)  
+  **Evaluates infrastructure-as-code deployments for security vulnerabilities and reliability issues before runtime provisioning**, Apache-2.0 licensed. **AWS Labs sample for proactive architecture review** . 🔍
 
+
+
+- **[Google Cloud Pricing Calculator](https://github.com/Cyclenerd/google-cloud-pricing-cost-calculator)** [![Stars](https://img.shields.io/github/stars/Cyclenerd/google-cloud-pricing-cost-calculator?style=social&color=white)](https://github.com/Cyclenerd/google-cloud-pricing-cost-calculator/stargazers)  
+  **Calculate estimated monthly costs of Google Cloud Platform products and resources via YAML files and CLI program**, Apache-2.0 licensed. **Supports Linux, macOS, and Windows** . 💸
+
+
+
+- **[Trackit](https://github.com/trackit/trackit)** [![Stars](https://img.shields.io/github/stars/trackit/trackit?style=social&color=white)](https://github.com/trackit/trackit/stargazers)  
   **Helps you understand and improve your use of AWS**, Apache-2.0 licensed. **Cost visibility and optimization recommendations** . **The most accessible open-source AWS cost advisor** . 📊
+
+
+
+- **[Prophet](https://github.com/Cloud-Discovery/prophet)** [![Stars](https://img.shields.io/github/stars/Cloud-Discovery/prophet?style=social&color=white)](https://github.com/Cloud-Discovery/prophet/stargazers)  
+  **Automated resource collection, analysis, and management toolset for cloud migration and disaster recovery**, open-source. **Supports comprehensive collection and analysis of physical machines and VMware environments** . **Visualized application topology canvas** . 🏗️
+
+
+
+- **[ckia (cloud know it all)](https://github.com/brittandeyoung/ckia)** [![Stars](https://img.shields.io/github/stars/brittandeyoung/ckia?style=social&color=white)](https://github.com/brittandeyoung/ckia/stargazers)  
+  **Open-source alternative to AWS Trusted Advisor**, open-source. **Makes proactive optimization recommendations for target cloud accounts** . 💡
+
+
+
+- **[ArchiQ (Amazon Q Architecture Reviewer)](https://github.com/aws-samples/sample-q-architecture-reviewer)** [![Stars](https://img.shields.io/github/stars/aws-samples/sample-q-architecture-reviewer?style=social&color=white)](https://github.com/aws-samples/sample-q-architecture-reviewer/stargazers)  
+  **Amazon Q-powered architecture analysis tool**, Apache-2.0 licensed. Four analysis modes: security assessment, well-architected review, architecture diagram generation, and modernization path analysis . 🤖
+
+
+
+- **[Cloud Architect (AI Agent)](https://github.com/bmdietrich/agent-cloud-architect)** [![Stars](https://img.shields.io/github/stars/bmdietrich/agent-cloud-architect?style=social&color=white)](https://github.com/bmdietrich/agent-cloud-architect/stargazers)  
+  **AI Cloud Architect with CLI and MCP availability**, open-source. **Scans projects, detects tech stacks, and provides architecture recommendations, diagrams, and deployment comparisons for AWS, GCP, or Azure** . 🏗️
+
+
+
+- **[Cloud Migration MCP](https://github.com/chrishorne74/cloud-migration-mcp)** [![Stars](https://img.shields.io/github/stars/chrishorne74/cloud-migration-mcp?style=social&color=white)](https://github.com/chrishorne74/cloud-migration-mcp/stargazers)  
+  **MCP server for cloud migration assessment, strategy, and planning**, open-source. **7 Rs Strategy Engine** recommends Rehost, Replatform, Repurchase, Refactor, Retire, Retain, or Relocate based on workload attributes with ROM cost estimation. 🚀
+
+
+
+- **[well-architected-terraform (WAT)](https://github.com/ilijad1/well-architected-terraform)** [![Stars](https://img.shields.io/github/stars/ilijad1/well-architected-terraform?style=social&color=white)](https://github.com/ilijad1/well-architected-terraform/stargazers)  
+  **Terraform plan analyzer for Well-Architected Framework**, open-source. **Analyzes Terraform plan JSON against AWS Well-Architected pillars (Security, Reliability, Cost, Sustainability)** with SARIF output. 📐
 
 
 
