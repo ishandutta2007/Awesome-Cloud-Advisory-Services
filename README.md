@@ -101,7 +101,7 @@ The cloud advisory services market spans **global systems integrators** (Accentu
 ## 🔓 Open-Source GitHub Projects 🌟 🛠️
 
 
-*Curated self-hosted cloud security scanners, migration assessment tools, policy engines, and FinOps platforms — sorted strictly by GitHub Stars_Count (Descending)* 📈
+*Curated self-hosted cloud security scanners, migration assessment tools, policy engines, and FinOps platforms — sorted strictly by GitHub_Stars_Count (Descending)* 📈
 
 
 - **[Trivy](https://github.com/aquasecurity/trivy)** [![Stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers)  
