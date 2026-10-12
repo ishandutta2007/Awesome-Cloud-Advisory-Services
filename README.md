@@ -149,7 +149,7 @@ The cloud advisory services market spans **global systems integrators** (Accentu
 
 
 
-*Curated self-hosted cloud security scanners, migration assessment tools, policy engines, and FinOps platforms — sorted strictly by GitHub Star Count (Descending)* 📈
+*Curated self-hosted cloud security scanners, migration assessment tools, policy engines, and FinOps platforms — sorted strictly by GitHub Stars_Count (Descending)* 📈
 
 
 
